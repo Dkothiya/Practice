@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<title>My Example</title>
+<style>
+	div {
+		color: darkorange;
+		font-size: 30px;
+		padding: 30px;
+		margin: 30px;
+		border: thin solid black;
+		outline-style: solid;
+		outline-width: thick;
+	}
+	.a {
+		outline-color: limegreen;
+	}
+	.b {
+		outline: 5px dotted gold;
+	}
+</style>
+
+<div>Default color. If the outline's color hasn't been explicity set, it uses <code>currentColor</code> (the value of the <code>color</code> property).</div>
+
+<div class="a">This box's outline color has been explicity set.</div>
+
+<div class="b">This box has had its outline properties set using the <code>outline</code> shorthand property.</div>
